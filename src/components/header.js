@@ -1,5 +1,5 @@
 import { Link, Outlet } from "react-router-dom";
-import react from "react";
+import React from 'react';
 export default function header() {
   return (
     <header id="header">

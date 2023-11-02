@@ -5,17 +5,15 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <>
-      <Router>
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Layout />}>
-              <Route index element={<Home />}></Route>
-            </Route>
-          </Routes>
-        </BrowserRouter>
-      </Router>
-    </>
+    <Router>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />}></Route>
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </Router>
   );
 }
 
